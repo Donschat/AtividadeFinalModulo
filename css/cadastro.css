@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./image/mexico-7596566_1920.jpg);
+}
+#divCadastro{
+    border-radius: 5px;
+    margin-left: 20%;
+    margin-top: 10%;
+    padding: 10px;
+    width: 360px;
+}
+#sair{
+    position: absolute;
+    border-radius: 5px;
+    bottom: 20px;
+    right: 20px;
+}
+body{
+    background-color: darkgray;
+}
+#password, #email, #repeatSenha{
+    margin-top: 10px;
+    background-color: rgb(116, 114, 114);
+    border-radius: 5px;
+    width: 200px;
+}
+#buttonBox{
+    margin-top: 5px;
+    margin-left: auto;
+}
+button, .buttonSub{
+    padding: 2px;
+    border-radius: 5px;
+    background-color: rgb(116, 114, 114);
+}
+button:hover, .buttonSub:hover{
+    transform: scale(1.2, 1.2)
+}
+#login{
+    position: absolute;
+    border-radius: 5px;
+    bottom: 50px;
+    right: 20px;
+}

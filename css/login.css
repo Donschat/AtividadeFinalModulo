@@ -1,0 +1,49 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#loginBox{
+display: flex;
+width: 25%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 150px;
+}
+button{
+    width: 45px;
+    margin-left: 10px;
+    background-color: rgb(116, 114, 114);
+}
+.buttonSub{
+    padding: 2px;
+    border-radius: 5px;
+    width: 80px;
+    margin: 3px;
+    background-color: rgb(116, 114, 114);
+}
+#senha, #username{
+    border-radius: 5px;
+    height: 25px;
+    width: 200px;
+    background-color: rgb(116, 114, 114);
+    margin-left: 20px;
+}
+body{
+    background-image:url(./image/night-7683839_1280.jpg);
+}
+#flexButton{
+    display: flex;
+    margin-left: 50%;
+}
+#sair{
+    border-radius: 5px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+button:hover, .buttonSub:hover{
+    transform: scale(1.2, 1.2)
+}
+#cadastro{
+    border-radius: 5px;
+}
